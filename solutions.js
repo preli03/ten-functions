@@ -44,10 +44,25 @@ function addOne(input1) {
 
 
 //Define a function named isEven that takes in a single input. If the input is an even number or a string containing an even number, return true. Any other input should return false for the output.
+var isEven = function (n) {
+    //check if number is even
+    toString(n)
+    if(n % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 
 //Define a function named isIdentical that takes in two input arguments. If each input is equal both in data type and in value, then return true. If the values are not the same data type or not the same value, return false.
-
+function isIdentical(arg1, arg2) {
+    if (arg1 === arg2) {
+        return true
+    } else {
+        return false
+    }
+}
 
 //Define a function named or that takes in two input arguments. The output returned should be the result of an or operation on both inputs.
 
